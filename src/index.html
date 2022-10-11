@@ -1,14 +1,38 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+</head>
+
+<body>
     <div id="root">
-      <h1>Hello world!</h1>
+        <h1>Centro de comando
+        </h1>
+    </div>
+
+    <div>
+        <h2>Ingreso de orden:</h2>
+        <form id="cifrador" autocomplete="off">
+            <!-- Cuadro de texto para llenar -->
+            <p><input type="text" id="mensaje"></p>
+        </form>
+    </div>
+    <div>
+        <h2>Número clave:</h2>
+        <p><input type="number" id="desplazamiento" size="4" min="1"></p>
+        <p><button type="button" id="encode">Cifrar</button></p>
+    </div>
+    <div>
+        <p><button type="button" id="decode">Descifrar</button></p>
+    </div>
+    <div>
+        <h2>Código:</h2>
+        <p><input type="text" id="mensaje2" /></p>
     </div>
     <script src="index.js" type="module"></script>
-  </body>
+</body>
+
 </html>

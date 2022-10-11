@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@800&display=swap');
+body {
+    background-image: url(foto/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+}
+
+button {
+    display: block;
+    padding: 7px;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: rgba(78, 9, 9, 0.792);
+    background-color: black;
+    color: white
+}

@@ -9,28 +9,33 @@
 
 <body>
     <div id="root">
+        <br>
+        <br>
+        <br>
         <h1>Centro de comando
         </h1>
+        <br>
+        <br>
     </div>
 
     <div>
-        <h2>Ingreso de orden:</h2>
+        <h2 class="texto"> Ingreso de orden:</h2>
         <form id="cifrador" autocomplete="off">
             <!-- Cuadro de texto para llenar -->
-            <p><input type="text" id="mensaje"></p>
+            <p class="cuadro"><input type="text" id="mensaje"></p>
         </form>
     </div>
     <div>
-        <h2>Número clave:</h2>
-        <p><input type="number" id="desplazamiento" size="4" min="1"></p>
-        <p><button type="button" id="encode">Cifrar</button></p>
+        <h2 class="texto">Número clave:</h2>
+        <p class="cuadro"><input type="number" id="desplazamiento" size="4" min="1"></p>
     </div>
     <div>
+        <p class="boton"><button type="button" id="encode">Cifrar</button></p>
         <p><button type="button" id="decode">Descifrar</button></p>
     </div>
     <div>
-        <h2>Código:</h2>
-        <p><input type="text" id="mensaje2" /></p>
+        <h2 class="texto">Código:</h2>
+        <p class="cuadro"><input type="text" id="mensaje2" /></p>
     </div>
     <script src="index.js" type="module"></script>
 </body>

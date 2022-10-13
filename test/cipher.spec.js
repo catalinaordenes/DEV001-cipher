@@ -9,7 +9,7 @@ import cipher from '../src/cipher';
 describe('cipher', () => {
 
     it('should be an object', () => {
-        expect(typeof cipher.encode).toBe('object');
+        expect(typeof cipher).toBe('object');
     });
 
     describe('cipher.encode', () => {
@@ -21,7 +21,7 @@ describe('cipher', () => {
         it('should throw TypeError when invoked with wrong argument types', () => {
             expect(() => cipher.encode()).toThrow(TypeError);
             expect(() => cipher.encode(0)).toThrow(TypeError);
-            expect(() => cipher.encode(null, [])).toThrow(TypeError);
+            expect(() => cipher.encode([], null)).toThrow(TypeError);
             expect(() => cipher.encode(0, 0)).toThrow(TypeError);
         });
 

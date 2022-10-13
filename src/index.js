@@ -1,6 +1,6 @@
 import cipher from './cipher.js';
 
-console.log(cipher);
+//console.log(cipher);
 
 window.addEventListener("load", inicio, true);
 
@@ -9,7 +9,7 @@ function inicio() {
     document.getElementById("mensaje").addEventListener("keyup", function() {
         this.value = this.value.toUpperCase();
     }, true)
-};
+}
 
 //1.Llama al botón cifrar y le crea un evento al momento de hacer click
 //2.Toma el texto y con value se centra en lo que contiene el texto
@@ -18,11 +18,11 @@ function inicio() {
 document.getElementById("encode").addEventListener("click", function() {
     let texto = document.getElementById("mensaje").value;
     let desplazamiento = document.getElementById("desplazamiento").value;
-    document.getElementById("mensaje2").value = cipher.encode(texto, desplazamiento); //Se crea una función que tome el elemento texto y desplazamiento y evalúa el contenido del texto
+    document.getElementById("mensaje2").value = cipher.encode(desplazamiento, texto); //Se crea una función que tome el elemento texto y desplazamiento y evalúa el contenido del texto
 }, true);
 
 document.getElementById("decode").addEventListener("click", function() {
     let texto = document.getElementById("mensaje").value;
     let desplazamiento = document.getElementById("desplazamiento").value;
-    document.getElementById("mensaje2").value = cipher.decode(texto, desplazamiento); //Se crea una función que tome el elemento texto y desplazamiento y evalúa el contenido del texto
+    document.getElementById("mensaje2").value = cipher.decode(desplazamiento, texto); //Se crea una función que tome el elemento texto y desplazamiento y evalúa el contenido del texto
 }, true);

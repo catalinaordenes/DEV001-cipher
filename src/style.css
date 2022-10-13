@@ -1,14 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 body {
     background-image: url(foto/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.texto {
+    text-align: center;
+    font-family: 'Silkscreen';
+    color: rgb(26, 251, 10);
+}
+
+.cuadro {
+    text-align: center;
+}
+
 h1 {
     text-align: center;
     color: white;
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Silkscreen', cursive;
+    width: 500px;
+    margin: auto;
 }
 
 button {
@@ -18,7 +31,7 @@ button {
     cursor: pointer;
     margin-left: auto;
     margin-right: auto;
-    border-color: rgba(78, 9, 9, 0.792);
-    background-color: black;
-    color: white
+    border-color: white;
+    background-color: rgb(2, 255, 44);
+    color: black
 }

@@ -2,7 +2,7 @@
 
 ## Índice
 
-* [1. Objetivos de aprendizaje generales](#1-objetivos-de-aprendizaje-generales)
+* [1. Desarrollo del Readme](#1-desarrollo-del-Readme)
 * [2. Preámbulo](#2-preámbulo)
 * [3. Resumen del proyecto](#2-resumen-del-proyecto)
 * [4. Consideraciones generales](#4-consideraciones-generales)
@@ -15,16 +15,17 @@
 
 ***
 
-## 1. Objetivos de aprendizaje generales
-Como continuación del proyecto de preadmisión, volverás a trabajar sobre fundamentos de JavaScript, incluyendo conceptos como variables, condicionales, y funciones, así como eventos y manipulación básica del DOM, fundamentos de HTML y CSS.
+## 1. Desarrollo del Readme
+Este proyecto fue pensado como una simulación para un centro de comando táctico, inspirada en las interfaces de los videojuegos militares. A través de esta interfaz, los encargados de dar las órdenes para el despliegue de acciones, pueden encriptar su mensaje, de este modo, pueden difundir la táctica de manera secreta, sin que los enemigos puedan saber el movimiento que realizarán. También está diseñada para desencriptar mensajes, así pueden recibir órdenes de otros centros de comandos aliados.
 
-Mientras desarrollas este proyecto, te familiarizarás con estos nuevos conceptos:
+El proceso de creación se basó en primero declarar una estructura básica, con ayuda de un bosquejo realizado en papel pude establecer las interacciones que tendría el usuario con la interfaz. Luego comencé a crear el esqueleto a través de un html el cual contenía el mínimo de elementos que consideraba necesarios para poder trabajar una base. Ya teniendo el esqueleto, quise ir de lleno a la interacción con el Javascript, éste fue el proceso más largo, ya que primero necesitaba de tener un poco de conocimientos para poder ejecutarlo. Para ello, junto con la utilización de Trello (para la organización de tareas por sprint y dividiendo los procesos en pasos más pequeños), investigué sobre diferentes elementos para lograr la ejecución de la interacción, complementando con pruebas pequeñas en otras situaciones para poder esclarecer bien lo que estaba realizando. 
 
-* Un _boilerplate_, la estructura básica de un proyecto en distintas carpetas (a través `modulos` en JS).
-* Las herramientas de mantenimiento y mejora del código (linters y pruebas unitarias).
-* Objetos en JavaScript, su estructura y métodos.
-* Iteración (bucles) en JavaScript.
-* Control de versiones con git (y la plataforma github)
+A medida que iba logrando la interacción, iba modificando el html acorde a lo que necesitaba y desarrollaba el css para la estética de la página. Ya teniendo todo funcionando, me dispuse a realizar los test del encode y el decode. Tuve varios errores al principio que no lograba dilucidar cómo solucionarlos, pero gracias a una OH que tuve con Luna y acompañada de dos compañeras que tenían el mismo problema, pudimos solucionarlo. 
+
+Como auto feedback puedo decir que hubiese sido mejor desarrollar una maqueta visual a través de illustrator, ya que me hubiese permitido encontrar los posibles cambios de manera más rápida y precisa desde el inicio y no sólo en el trayecto del proyecto.
+
+Aparte como dejé el css ya casi para el final, siento que no logré desarrollar una interacción clara para el usuario, ya que los botones cifrar y descifrar pueden llevar a confundir al usuario cómo utilizarlo.
+
 
 ## 2. Preámbulo
 

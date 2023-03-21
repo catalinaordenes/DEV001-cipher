@@ -26,6 +26,7 @@ h1 {
 
 button {
     display: block;
+    /* Crea espacios dentro del elemento */
     padding: 7px;
     border-radius: 7px;
     cursor: pointer;

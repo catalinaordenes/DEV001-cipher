@@ -6,7 +6,6 @@ const cipher = {
             throw new TypeError("Sólo puedes ingresar letras")
         }
         const letras = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-
         //Con esto procuramos que el número del desplazamiento sea siempre positivo aunque entre un número negativo
         desplazamiento = (desplazamiento % 26 + 26) % 26;
 
